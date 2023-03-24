@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+}
+
+.pageHome {
+    background-image: url("./images/home.png");
+    background-size: cover;
+}
+.pageUniverse {
+    background-image: url("./images/universe.png");
+    background-size: cover;
+}
+.pageExplorer {
+    background-image: url("./images/explorer.png");
+    background-size: cover;
+}
+
+nav {
+    height: 12.2rem;
+    display: flex;
+    padding: 4rem 5.2rem;
+    align-items: center;
+    gap: 3.2rem;
+}
+nav img {
+    height: 4.2rem;
+    width: 5rem;
+}
+nav .linkHome,
+.linkUniverse,
+.linkExplorer {
+  margin: 0;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: medium;
+    color: white;
+}
+nav a:hover {
+    font-weight: 400;
+    transform: scale(1.1);
+    transition: 100ms;
+}
+
+nav a.active {
+    font-weight: 400;
+    transform: scale(1.1);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4.8rem;
+    color: rgba(225, 225, 230, 1);
+    margin-bottom: 2.4rem;
+}
+
+p {
+    color: hsl(240, 9%, 89%);
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 160%;
+    width: 64.8rem;
+}
+
+button {
+    color: rgba(225, 225, 230, 1);
+    border: solid 0.2rem rgba(225, 225, 230, 1);
+    border-radius: 0.5rem;
+    background: none;
+
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    padding: 1.2rem 3.2rem;
+    cursor: pointer;
+}
+button:hover {
+    background: rgba(225, 225, 230, 1);
+    color: rgba(2, 121, 157, 1);
+}
+
+.home {
+    text-align: center;
+    margin: 14.8rem auto;
+}
+.universe {
+    margin: 6.3rem 10.2rem;
+}
+.explorer {
+    margin: 6.3rem 10.2rem;
+}
